@@ -1,0 +1,8 @@
+pandas>=1.3
+numpy>=1.21
+scikit-learn>=1.0
+scipy>=1.7
+tqdm>=4.60
+jsonlines>=3.0
+requests>=2.25
+openai>=1.0  # 可选：本代码使用 requests 调用 OpenAI 兼容接口，未直接依赖 openai SDK

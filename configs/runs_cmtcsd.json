@@ -1,0 +1,37 @@
+[
+ {
+  "name": "c_gpt4omini_knn",
+  "dataset": "C-MTCSD",
+  "instances": "processed_cmtscd_semantic_llm_causal_v4/cmtscd_semantic_instances_llm.jsonl",
+  "valid_pred": "baseline_outputs/predictions_knn_fewshot_valid.jsonl",
+  "test_pred": "baseline_outputs/predictions_knn_fewshot_test.jsonl"
+ },
+ {
+  "name": "c_llama8b_knn",
+  "dataset": "C-MTCSD",
+  "instances": "processed_cmtscd_semantic_llm_causal_v4/cmtscd_semantic_instances_llm.jsonl",
+  "valid_pred": "baseline_outputs_llama8b/predictions_knn_fewshot_valid.jsonl",
+  "test_pred": "baseline_outputs_llama8b/predictions_knn_fewshot_test.jsonl"
+ },
+ {
+  "name": "c_glan_s0",
+  "dataset": "C-MTCSD",
+  "instances": "processed_cmtscd_semantic_llm_causal_v4/cmtscd_semantic_instances_llm.jsonl",
+  "valid_pred": "cmtcsd_sota/outputs/glan/seed0/predictions_glan_valid.jsonl",
+  "test_pred": "cmtcsd_sota/outputs/glan/seed0/predictions_glan_test.jsonl"
+ },
+ {
+  "name": "c_glan_s1",
+  "dataset": "C-MTCSD",
+  "instances": "processed_cmtscd_semantic_llm_causal_v4/cmtscd_semantic_instances_llm.jsonl",
+  "valid_pred": "cmtcsd_sota/outputs/glan/seed1/predictions_glan_valid.jsonl",
+  "test_pred": "cmtcsd_sota/outputs/glan/seed1/predictions_glan_test.jsonl"
+ },
+ {
+  "name": "c_glan_s2",
+  "dataset": "C-MTCSD",
+  "instances": "processed_cmtscd_semantic_llm_causal_v4/cmtscd_semantic_instances_llm.jsonl",
+  "valid_pred": "cmtcsd_sota/outputs/glan/seed2/predictions_glan_valid.jsonl",
+  "test_pred": "cmtcsd_sota/outputs/glan/seed2/predictions_glan_test.jsonl"
+ }
+]

@@ -1,0 +1,51 @@
+[
+ {
+  "name": "zs_sitpcl_s1234",
+  "dataset": "ZS-CSD",
+  "instances": "zscsd_exp/data/zscsd_semantic_instances_llm.jsonl",
+  "valid_pred": "zscsd_exp/outputs/sitpcl/seed1234/predictions_sitpcl_valid.jsonl",
+  "test_pred": "zscsd_exp/outputs/sitpcl/seed1234/predictions_sitpcl_test.jsonl"
+ },
+ {
+  "name": "zs_sitpcl_s42",
+  "dataset": "ZS-CSD",
+  "instances": "zscsd_exp/data/zscsd_semantic_instances_llm.jsonl",
+  "valid_pred": "zscsd_exp/outputs/sitpcl/seed42/predictions_sitpcl_valid.jsonl",
+  "test_pred": "zscsd_exp/outputs/sitpcl/seed42/predictions_sitpcl_test.jsonl"
+ },
+ {
+  "name": "zs_sitpcl_s2026",
+  "dataset": "ZS-CSD",
+  "instances": "zscsd_exp/data/zscsd_semantic_instances_llm.jsonl",
+  "valid_pred": "zscsd_exp/outputs/sitpcl/seed2026/predictions_sitpcl_valid.jsonl",
+  "test_pred": "zscsd_exp/outputs/sitpcl/seed2026/predictions_sitpcl_test.jsonl"
+ },
+ {
+  "name": "zs_qwen_sft100",
+  "dataset": "ZS-CSD",
+  "instances": "zscsd_exp/data/zscsd_semantic_instances_llm.jsonl",
+  "valid_pred": "zscsd_exp/outputs/qwen7b_sft/predictions_qwen7b_sft_valid.jsonl",
+  "test_pred": "zscsd_exp/outputs/qwen7b_sft/predictions_qwen7b_sft_test.jsonl"
+ },
+ {
+  "name": "zs_gpt4omini_knn",
+  "dataset": "ZS-CSD",
+  "instances": "zscsd_exp/data/zscsd_semantic_instances_llm.jsonl",
+  "valid_pred": "zscsd_exp/outputs/gpt4omini/predictions_knn_fewshot_valid.jsonl",
+  "test_pred": "zscsd_exp/outputs/gpt4omini/predictions_knn_fewshot_test.jsonl"
+ },
+ {
+  "name": "zs_gpt4o_knn",
+  "dataset": "ZS-CSD",
+  "instances": "zscsd_exp/data/zscsd_semantic_instances_llm.jsonl",
+  "valid_pred": "zscsd_exp/outputs/gpt4o/predictions_knn_fewshot_valid.jsonl",
+  "test_pred": "zscsd_exp/outputs/gpt4o/predictions_knn_fewshot_test.jsonl"
+ },
+ {
+  "name": "zs_llama8b_knn",
+  "dataset": "ZS-CSD",
+  "instances": "zscsd_exp/data/zscsd_semantic_instances_llm.jsonl",
+  "valid_pred": "zscsd_exp/outputs/llama8b/predictions_knn_fewshot_valid.jsonl",
+  "test_pred": "zscsd_exp/outputs/llama8b/predictions_knn_fewshot_test.jsonl"
+ }
+]
